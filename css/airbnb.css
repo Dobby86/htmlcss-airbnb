@@ -3,48 +3,40 @@
     margin: 0;
     padding: 0;
 }
+.destinazioni {
+    border: 2px solid black;
+}
 
-#striscia1 {
-    width: 100vw;
-    height: 100vh;
-    background:url(https://www.whotelsnewyork.com/wp-content/uploads/2016/10/who1299ex-178939-W-Union-Square-Exterior-1440x600.jpg);
-    background-size:cover;
-}
-#striscia2 {
-    width: 100vw;
-    height: 100vh;
-    background:url(https://cuppa.uic.edu/wp-content/uploads/sites/6/2018/05/chicago-1791002_1920-1440x600.jpg);
-    background-size:cover;
-}
-.title1 {
-    text-align: center;
+.citta {
     position: relative;
-    left: 0;
-    font-size: 5em;
-    height: 60px;
-    top: calc((100%-60px) / 2)
+    height: 100vh;
+    width: 100%;
 }
-#striscia2 .title2 {
-    text-align: center;
-    position: relative;
-    left: 0;
-    font-size: 5em;
-    height:60px;
-    top: 10%;
+#newyork {
+    background-image: url("../img/newyorkfoto.jpg");
+    background-size: cover;
 }
-.small-title1 {
-    text-align: center;
-    font-size: 0.2em;
+#singapore {
+    background-image: url("../img/singaporefoto.jpg");
+    background-size: cover;
 }
-.small-title2 {
-    text-align: center;
-    font-size: 0.4em;
+#tokyo {
+    background-image: url("../img/tokyofoto.jpg");
+    background-size: cover;
 }
-#layover {
+h1 {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.layover {
     width: 100%;
     height: 100%;
-    background-color: rgba(155, 155,145, 0.2);
+    background-color: rgba(255, 240, 240, 0.3);
+    position: absolute;
+    left: 0;
+    top: 0;
 }
